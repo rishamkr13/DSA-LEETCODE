@@ -8,15 +8,15 @@ public:
 
     // }
     int gcdOfOddEvenSums(int n) {
-        int sumOdd = 0;
-        int N= n;
-        while(n>0){
-            sumOdd+=(2*n-1);
-            n--;
-        }
-        int sumEven=N*(N+1);
-        return __gcd(sumOdd,sumEven);
-        
+        // int sumOdd = 0;
+        // int N= n;
+        // while(n>0){
+        //     sumOdd+=(2*n-1);
+        //     n--;
+        // }
+        // int sumEven=N*(N+1);
+        // return __gcd(sumOdd,sumEven);
+        return n;
         
 
         
